@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="140528" started-at="2022-03-02T22:44:25 IST" finished-at="2022-03-02T22:46:46 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="140528" started-at="2022-03-02T22:44:25 IST" finished-at="2022-03-02T22:46:46 IST">
+      <class name="com.keywordframework1.tests.MyntraTest">
+        <test-method status="PASS" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.keywordframework1.tests.MyntraTest@fcd6521]" name="setup" is-config="true" duration-ms="83973" started-at="2022-03-02T22:44:25 IST" finished-at="2022-03-02T22:45:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.myntra.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageProfileAgain()[pri:0, instance:com.keywordframework1.tests.MyntraTest@fcd6521]" name="verifyHomePageProfileAgain" duration-ms="54959" started-at="2022-03-02T22:45:49 IST" finished-at="2022-03-02T22:46:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageProfileAgain -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.keywordframework1.tests.MyntraTest@fcd6521]" name="tearDown" is-config="true" duration-ms="1430" started-at="2022-03-02T22:46:44 IST" finished-at="2022-03-02T22:46:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.keywordframework1.tests.MyntraTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
