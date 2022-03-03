@@ -10,7 +10,7 @@ import com.keywordframework1.utilitymethods.PropertyRepository;
 public class MyntraTest extends BaseFramework{
 	PropertyRepository prop;
 	private static final Logger LOG = Logger.getLogger(MyntraTest.class);
-	//@Test(priority=1)
+	@Test(priority=1)
 	public void verifyLogo() {
 		String currentUrl="https://www.myntra.com/";
 		System.out.println("Myntra.com website opened successfully..");
@@ -55,7 +55,7 @@ public class MyntraTest extends BaseFramework{
 	 * Create a class to access the locators in .properies file
 	 * In tests, call the methods of these class like we call method of Keywords class.
 	 */
-	@Test
+	@Test(dependsOnMethods= {"verifyLogo"})
 	public void verifyHomePageProfileAgain() {
 		prop=new PropertyRepository();
 		click(prop.getLocator("clickOnProfileBtn"));
